@@ -555,3 +555,6 @@ height:120px;
 object-fit: cover;
 }
 
+.twitter-timeline{
+	height: 23vh !important;
+}
