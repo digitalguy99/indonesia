@@ -563,3 +563,15 @@ object-fit: cover;
 	list-style-type: decimal !important; 
 }
 */
+p.langbar{
+	text-align: right;
+}
+p.langbar span.language{
+	color: #1a7fb6;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+p.langbar span.language:hover{
+	color: orange;
+}
