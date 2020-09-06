@@ -558,3 +558,8 @@ object-fit: cover;
 .twitter-timeline{
 	height: 23vh !important;
 }
+/*
+.inside dl dd{
+	list-style-type: decimal !important; 
+}
+*/
