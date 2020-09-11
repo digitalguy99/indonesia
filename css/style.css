@@ -575,3 +575,7 @@ p.langbar span.language{
 p.langbar span.language:hover{
 	color: orange;
 }
+
+div#sosmed a{
+  text-decoration: none;
+}
