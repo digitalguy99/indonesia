@@ -574,8 +574,16 @@ p.langbar span.language{
 
 p.langbar span.language:hover{
 	color: orange;
+	text-decoration: none;
 }
 
 div#sosmed a{
   text-decoration: none;
+}
+
+ul.articles#kelas li a{
+	color: #1a7fb6;
+}
+ul.articles#kelas li a:hover{
+	color: orange;
 }
