@@ -627,3 +627,17 @@ input#gsc-i-id1:focus{
 /* input#gsc-i-id1:valid{
 	background: unset! important;
 } */
+
+div.pengunjungSitus{
+	float: right;
+}
+
+div.pengunjungSitus p{
+	/* float: right; */
+	display: inline-block;
+	margin-top: 0.3vh;
+}
+
+/* div.pengunjungSitus a img{
+	vertical-align: middle !important;
+} */
