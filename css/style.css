@@ -390,7 +390,7 @@ header nav ul li.current a.m5 {
 	right:0;
 	top:113px;
 }
-#search-form input {
+#search-form input{
 	width:205px;
 	background:#fff;
 	padding:4px 5px 4px 5px;
@@ -563,9 +563,12 @@ object-fit: cover;
 	list-style-type: decimal !important; 
 }
 */
+
+/* --- language bar feature --- */
 p.langbar{
 	text-align: right;
 }
+
 p.langbar span.language{
 	color: #1a7fb6;
 	text-decoration: underline;
@@ -577,13 +580,44 @@ p.langbar span.language:hover{
 	text-decoration: none;
 }
 
+/* --- social media bar feature ---  */
 div#sosmed a{
   text-decoration: none;
 }
 
+/* --- hyperlink style inside class description paragraph --- */
 ul.articles#kelas li a{
 	color: #1a7fb6;
 }
 ul.articles#kelas li a:hover{
 	color: orange;
+}
+
+/* --- search engine feature --- */
+
+#pencarian{
+	width: 305px;
+	/* vertical-align:middle; */
+}
+
+td.gsc-input{
+	padding: 0 !important;
+}
+
+.gsib_b{
+		display: none;
+} 
+.gsc-search-button.gsc-search-button-v2{
+	margin: 0 !important;
+}
+
+input#gsc-i-id1{
+	background: url(../images/pencarian.png) !important;
+	background-size: 40% 1.25em !important;
+	background-repeat: no-repeat !important;
+	/* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+input#gsc-i-id1:focus{
+	background: unset !important;
 }
