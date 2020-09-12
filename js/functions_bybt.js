@@ -13,3 +13,10 @@ var acc = document.getElementsByClassName("accordion");
       }  
     });
   }
+
+//search engine 
+
+window.onload = demo;
+function demo() {
+    document.getElementById("gsc-i-id1").setAttribute("placeholder", "Penelusuran");
+}

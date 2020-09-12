@@ -612,12 +612,18 @@ td.gsc-input{
 }
 
 input#gsc-i-id1{
-	background: url(../images/pencarian.png) !important;
-	background-size: 40% 1.25em !important;
-	background-repeat: no-repeat !important;
-	/* background-color: rgba(0, 0, 0, 0.5); */
+	background: unset !important;
+	/* background: url(../images/pencarian.png) !important; */
+	/* background-size: 40% 1.25em !important; */
+	/* background-repeat: no-repeat !important; */
+	/* background-color: rgba(0, 0, 0, 0.5);  */
 }
 
+/*
 input#gsc-i-id1:focus{
 	background: unset !important;
-}
+} */
+
+/* input#gsc-i-id1:valid{
+	background: unset! important;
+} */
