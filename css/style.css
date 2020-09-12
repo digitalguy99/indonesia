@@ -630,14 +630,13 @@ input#gsc-i-id1:focus{
 
 div.pengunjungSitus{
 	float: right;
+	/* line-height: 0; */
+	margin-top: 2vh;
 }
 
 div.pengunjungSitus p{
 	/* float: right; */
 	display: inline-block;
-	margin-top: 0.3vh;
+	vertical-align: middle;
+	/* margin-top: 0.3vh; */
 }
-
-/* div.pengunjungSitus a img{
-	vertical-align: middle !important;
-} */
