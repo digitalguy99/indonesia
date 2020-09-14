@@ -585,11 +585,11 @@ div#sosmed a{
   text-decoration: none;
 }
 
-/* --- hyperlink style inside class description paragraph --- */
-ul.articles#kelas li a{
+/* --- hyperlink style inside class description paragraph & FAQ description tags --- */
+ul.articles#kelas li a, div.panel dl dd a{
 	color: #1a7fb6;
 }
-ul.articles#kelas li a:hover{
+ul.articles#kelas li a:hover, div.panel dl dd a:hover{
 	color: orange;
 }
 
