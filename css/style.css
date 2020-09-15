@@ -640,3 +640,9 @@ div.pengunjungSitus p{
 	vertical-align: middle;
 	/* margin-top: 0.3vh; */
 }
+
+ul.tandaButir{
+	list-style-type: initial;
+  list-style-position: inside;
+  padding-left: 0;
+}
