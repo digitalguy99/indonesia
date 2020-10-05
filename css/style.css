@@ -651,5 +651,10 @@ div.pengunjungSitus p{
 ul.tandaButir{
 	list-style-type: initial;
   list-style-position: inside;
-  padding-left: 0;
+	padding-left: 0;
 }
+
+/* --- RSS feed feature --- */
+ul.news li:first-child{
+	border-bottom: 1px solid #CCCCCC;
+} 

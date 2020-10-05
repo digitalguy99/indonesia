@@ -17,8 +17,8 @@ var acc = document.getElementsByClassName("accordion");
 //window onload
 window.onload = function() {
   demo();
-  siteVisitor();
   twitter();
+  siteVisitor();
 };
 
 //search engine 
@@ -33,6 +33,8 @@ function siteVisitor() {
   var counterData = document.getElementById("visitorCounter");
   counterData.innerHTML = '<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/744451/t/5"><\/script>' + '<p>Anda pengunjung ke-</p>' + '<a href="https://www.freevisitorcounters.com/en/home/stats/id/744451" target="_blank"><img src="https://www.freevisitorcounters.com/en/counter/render/744451/t/5" border="0" class="counterimg"></a>';
 }
+
+//twitter feed expansion
 
 function twitter(){
   document.querySelectorAll("fieldset div.rowElem")[1].style.height = "80%";
