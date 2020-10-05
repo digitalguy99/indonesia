@@ -556,8 +556,15 @@ object-fit: cover;
 }
 
 .twitter-timeline{
-	height: 23vh !important;
+	height: 100% !important;
 }
+
+/* 
+footer.timeline-Footer.u-cf{
+	display: none !important;
+} 
+*/
+
 /*
 .inside dl dd{
 	list-style-type: decimal !important; 
