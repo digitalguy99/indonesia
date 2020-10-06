@@ -34,7 +34,7 @@ cd /pub/WWW/maigo/indonesia
 ```
 ### Berbagai model pembaruan website
 * Pengeditan langsung dengan penyunting teks CLI
-![diagram1](https://drive.google.com/uc?id=1-iODw0AfakTyWbHeLN7DzQW32Mda3KOQ)
+![diagram1](https://drive.google.com/uc?id=1K5zIZMoRPFQyvW62e73utW4oNxLdx5wN)
 
 * Pengeditan dari _desktop_ lokal 
 ![diagram2](https://drive.google.com/uc?id=1_mJrtOfVRNwIv-0dpJpOqva2RPwiDDv_)
