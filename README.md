@@ -49,6 +49,7 @@ Situs web ini memakai beberapa layanan pihak ke-3. Daftar layanan-layanan terseb
       * Cara pakai: 
         * Dengan menambahkan informasi pada baris baru, _feed_ RSS pada situs web akan diperbarui dengan otomatis
         * `***!PENTING***` Jangan menghapus data yang sudah ada pada baris-baris sebelumnya 
+    * https://surfing-waves.com/feed.htm - alat pembuat umpan RSS
 * **automate.io** - untuk menyambungkan formulir kontak dengan akun Twitter Maigo
   * URL: https://automate.io/
   * User/Pass: [memakai akun Google Maigo SFC]
@@ -62,4 +63,6 @@ Situs web ini memakai beberapa layanan pihak ke-3. Daftar layanan-layanan terseb
   * URL: https://www.freevisitorcounters.com/
 * **Google Programmable Search Engine** - untuk membuat mesin pencarian 
   * URL: https://programmablesearchengine.google.com/cse/all
-    
+
+## Kontak
+Untuk informasi lebih lanjut, silahkan hubungi: brian_tn@keio.jp
