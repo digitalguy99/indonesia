@@ -549,7 +549,7 @@ color: blue;
 font-size: 15px;
 }
 
-.inside img{
+.inside img.icon{
 width:150px;
 height:120px;
 object-fit: cover;
@@ -658,3 +658,16 @@ ul.tandaButir{
 ul.news li:first-child{
 	border-bottom: 1px solid #CCCCCC;
 } 
+
+img#IDMap{
+	object-fit: contain;
+	height: auto;
+}
+
+img#flowChartPelajaran{
+	display: block;
+	height: 100%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
