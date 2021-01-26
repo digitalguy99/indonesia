@@ -366,6 +366,7 @@ header nav ul li.last {
 }
 header nav ul li a.m5 {
 	width:155px;
+	padding:9px 0 10px 0; /*accomodating 2-line title*/ 
 }
 header nav ul li.current a.m5 {
 	background-image:url(../images/m5-act.jpg);
