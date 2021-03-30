@@ -337,25 +337,29 @@ header nav ul li.current a, header nav ul li a:hover {
 	color:#008cc4;
 }
 header nav ul li a.m1 {
-	width:186px;
+	width:60px;
 }
 header nav ul li.current a.m1 {
 	background-image:url(../images/m1-act.jpg);
 }
+header nav ul li.current a.m1 img, header nav ul li a.m1:hover{
+	/*changing black home icon to blue*/
+	filter: invert(41%) sepia(58%) saturate(2309%) hue-rotate(169deg) brightness(87%) contrast(101%);
+}
 header nav ul li a.m2 {
-	width:179px;
+	width:146px;
 }
 header nav ul li.current a.m2 {
 	background-image:url(../images/m2-act.jpg);
 }
 header nav ul li a.m3 {
-	width:208px;
+	width:146px;
 }
 header nav ul li.current a.m3 {
 	background-image:url(../images/m3-act.jpg);
 }
 header nav ul li a.m4 {
-	width:196px;
+	width:146px;
 }
 header nav ul li.current a.m4 {
 	background-image:url(../images/m4-act.jpg);
@@ -365,11 +369,27 @@ header nav ul li.last {
 	padding:0;
 }
 header nav ul li a.m5 {
-	width:167px;
+	width:145px;
+	padding:9px 0 10px 0; /*accomodating 2-line title*/ 
 }
 header nav ul li.current a.m5 {
 	background-image:url(../images/m5-act.jpg);
 }
+
+header nav ul li a.m6 {
+	width:145px;
+}
+header nav ul li.current a.m6 {
+	background-image:url(../images/m3-act.jpg);
+}
+
+header nav ul li a.m7 {
+	width:146px;
+}
+header nav ul li.current a.m7 {
+	background-image:url(../images/m3-act.jpg);
+}
+
 #content .inside {
 	padding:22px 20px 0 29px;
 }
