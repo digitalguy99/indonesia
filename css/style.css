@@ -685,7 +685,8 @@ img#IDMap{
 	height: auto;
 }
 
-img#flowChartPelajaran{
+/* --- full sized image content page --- */
+img.gambarUkuranPenuh{
 	display: block;
 	height: 100%;
 	width: 100%;
@@ -693,7 +694,7 @@ img#flowChartPelajaran{
 	margin-right: auto;
 }
 
-/* --- Navigation Icons --- */
+/* --- navigation icons --- */
 div.ikonNavigasi{
 	display: inline-block;
 	width: 50%;
