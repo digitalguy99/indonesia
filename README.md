@@ -59,8 +59,15 @@ Situs web ini memakai beberapa layanan pihak ke-3. Daftar layanan-layanan terseb
         * Untuk melihat respons langsung dari formulir kontak, buka bagian _Responses_ dan tekan label _Individual_
     * https://docs.google.com/spreadsheets/d/1GXALk0uUTkaXSbE6Vsgj2Not6JC7Mu9jHJBI6neh39s/edit?usp=sharing
       * `***!PENTING***` Jangan mengedit data yang ada pada berkas ini
+
+<--! versi lama
 * **FreeVisitorCounters.com** - untuk mengitung jumlah pengunjung
   * URL: https://www.freevisitorcounters.com/
+-->
+
+* **HitWebCounter** - untuk mengitung jumlah pengunjung
+  * URL: https://www.hitwebcounter.com/
+
 * **Google Programmable Search Engine** - untuk membuat mesin pencarian 
   * URL: https://programmablesearchengine.google.com/cse/all
 
