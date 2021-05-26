@@ -102,6 +102,11 @@ fieldset {
 	height:1%;
 	background:url(../images/marker.gif) no-repeat left 5px;
 }
+
+.categories li span.current::after{
+  content: " ✅";
+}
+
 .categories li a {
 	text-decoration:none;
 	color:#008cc4;
