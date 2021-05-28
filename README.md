@@ -71,5 +71,8 @@ Situs web ini memakai beberapa layanan pihak ke-3. Daftar layanan-layanan terseb
 * **Google Programmable Search Engine** - untuk membuat mesin pencarian 
   * URL: https://programmablesearchengine.google.com/cse/all
 
+* **Google Sheets** - untuk menampilkan jadwal kelas
+  * URL: https://drive.google.com/file/d/1Xl2WuNHfLOVO3vXJ4ylmY8CxyrW8ubk3/view?usp=sharing
+
 ## Kontak
 Untuk informasi lebih lanjut, silahkan hubungi: brian_tn@keio.jp
