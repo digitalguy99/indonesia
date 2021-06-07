@@ -237,7 +237,7 @@
       }
       `;
     // $(document).ready(function(){
-      $(window).load(function(){
+      $(window).load(function(){ //window.load seems unnecessary
         // $(window).resize(function () {  
           if ($(window).width() <= 990) { 
             document.querySelectorAll("style")[2].innerHTML = content;
