@@ -47,11 +47,14 @@
       border: 2px solid #555555;
       border-radius: 50px;
     }
-    #gambarPoster figcaption{
+    #gambarPoster figcaption:not(.closed){
       display: none;
-      text-align: center;
+      color: black !important;
       /* margin-top: -30px; */
       /* font-family: cursive; */
+    }
+    div.inside #notice{
+      color: red;
     }
   </style>
 </head>
@@ -193,9 +196,10 @@
         </div>
         <div class="inside">
           <h2>Program</h2>
+          <p id="notice">Catatan: Berhubung diperpanjangnya darurat nasional pada daerah Tokyo, acara di bawah ini akan ditunda menjadi tanggal 13-16 September.</p>
           <figure id="gambarPoster">
             <img src="images/indonesiaDiSFC.png" onmouseover="revealMessage()" onclick="window.open('https://bit.ly/maigo2021')">
-            <figcaption>Tekan gambar di atas untuk mendaftar</figcaption>
+            <figcaption class="closed" style="color: red;text-align: center;">Pendaftaran sudah tutup.</figcaption>
           </figure>
           <!--
         <h2>Recent <span>Articles</span></h2>
