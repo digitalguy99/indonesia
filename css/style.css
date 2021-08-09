@@ -794,3 +794,39 @@ div#embedDriFB iframe:nth-child(6){
 	transform-origin: 0 0;
 	transform: scale(1, 1.45);
 }
+/* --- Testimonials page --- */
+
+ul.dataTesti li{
+	/* position: relative; */
+	display: inline-block;
+	/* margin-top: 20px; */
+	/* top: 10px; */
+	background-color: rgb(225, 225, 225);
+  border-radius: 10px;
+	/* height: 30px; */
+	/* height: 20px; */
+	/* margin-top: 20px; */
+	/* padding: 10px; */
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 20px;
+  margin-top: 20px;
+	padding: 5px 5px;
+	margin-left: 20px;
+	/* text-align: center; */
+	border: 1px solid black;
+	text-align: center;
+	/* color: black; */
+}
+
+div.panel p{
+	margin: 20px 0;
+}
+
+ul.dataTesti{
+	columns: 1;
+	text-align: center;
+	/* vertical-align: initial; */
+	/* margin: 20px; */
+	/* height: 1000px; */
+}
