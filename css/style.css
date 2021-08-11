@@ -830,3 +830,7 @@ ul.dataTesti{
 	/* margin: 20px; */
 	/* height: 1000px; */
 }
+
+img[src=""] {
+	display: none;
+}
