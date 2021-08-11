@@ -243,12 +243,12 @@
             if (xmlDOM.querySelectorAll("name")[i].innerHTML == this.innerHTML) {
               hi = this.parentNode.parentNode;
               $(this).parent().parent().html(`<p style="display: none"><img style="float: left; margin: 0px 15px 15px 0px;" src=${xmlDOM.querySelectorAll("photo")[i].innerHTML}>${xmlDOM.querySelectorAll("content")[i].innerHTML}</p><p style="color: blue"><u>Kembali</u>↩</p>`);
-              //remove img to make it look neat          
-              $($(hi.childNodes)[0]).fadeIn(400);//using children is also possible
-              $(hi.previousSibling.previousSibling).click().click();
-              $($(hi.childNodes)[1]).click(function () {
+              $($(hi.children)[0]).fadeIn(400);
+              // $(hi.previousElementSibling).click().click();
+              hi.style.maxHeight = "100vh";
+              $($(hi.children)[1]).click(function () {
                 $(hi).html(there);
-                $($(hi.childNodes)[0]).fadeIn(400);  
+                $($(hi.children)[0]).fadeIn(400);  
               });  
             }
           }
