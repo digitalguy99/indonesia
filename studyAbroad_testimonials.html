@@ -225,30 +225,28 @@
   //     $($("a.Mobile-overlay-nav-item")[i]).attr("href", "javascript:changeToID()");      
   //   } 
   // }
-  var xmlData, parser, xmlDOM, there, y, hi; //where the xml data is //change y and hi
-  var xmlhttp = new XMLHttpRequest();
+  let xmlData, parser, xmlDOM, person; //where the xml data is
+  const xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function() {
     if (this.readyState === 4 && this.status === 200) {
       
       xmlData = this.responseText;
       parser = new DOMParser();
       xmlDOM = parser.parseFromString(xmlData, "application/xml");
-      y = document.querySelectorAll("ul.dataTesti li");
+      person = document.querySelectorAll("ul.dataTesti li");
 
-      for(let i in y){
-        y[i].onclick = function(){
-          there = this.parentNode;
-          $(this).parent().fadeOut(400);
+      for(let i in person){
+        person[i].onclick = function(){ 
           for (let i in xmlDOM.querySelectorAll("name")) {
-            if (xmlDOM.querySelectorAll("name")[i].innerHTML == this.innerHTML) {
-              hi = this.parentNode.parentNode;
-              $(this).parent().parent().html(`<p style="display: none"><img style="float: left; margin: 0px 15px 15px 0px;" src=${xmlDOM.querySelectorAll("photo")[i].innerHTML}>${xmlDOM.querySelectorAll("content")[i].innerHTML}</p><p style="color: blue"><u>Kembali</u>↩</p>`);
-              $($(hi.children)[0]).fadeIn(400);
-              // $(hi.previousElementSibling).click().click();
-              hi.style.maxHeight = "100%";
-              $($(hi.children)[1]).click(function () {
-                $(hi).html(there);
-                $($(hi.children)[0]).fadeIn(400);  
+            if (xmlDOM.querySelectorAll("name")[i].innerHTML == this.innerHTML) {              
+              $(this).parent().siblings().remove();
+              this.parentNode.parentNode.style.maxHeight = "100%";
+              $(this.parentElement.parentElement).append(`<div style="display: none"><img style="float: left; margin: 0px 15px 15px 0px;" src=${xmlDOM.querySelectorAll("photo")[i].innerHTML}><p>${xmlDOM.querySelectorAll("content")[i].innerHTML}</p><p style="color: blue"><u>Kembali</u>↩</p></div>`);              
+              $(this).parent().hide();
+              $(this).parent().siblings().fadeIn(400);
+              $(this).parent().siblings().children("p:nth-child(3)").click(function(){
+                $(this).parent().hide();
+                $(this.parentElement.previousElementSibling).fadeIn(400);
               });  
             }
           }

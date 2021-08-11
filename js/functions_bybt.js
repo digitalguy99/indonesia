@@ -1,18 +1,16 @@
 //accordion
 
-var acc = document.getElementsByClassName("accordion");
-  var i;
-  for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var panel = this.nextElementSibling;
-      if (panel.style.maxHeight) {
-        panel.style.maxHeight = null;
-      } else {
-        panel.style.maxHeight = panel.scrollHeight + "px";
-      }  
-    });
-  }
+let acc = document.getElementsByClassName("accordion");
+let panel;
+
+for (let i in acc) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    panel = this.nextElementSibling;
+    panel.style.maxHeight = panel.style.maxHeight? 
+    	null: (panel.scrollHeight + "px");
+  });
+}
 
 //window onload
 window.onload = function() {
@@ -36,7 +34,7 @@ function demo() {
 
 //visitor counter(new)
 function siteVisitor() {
-  var counterData = document.getElementById("visitorCounter");
+  let counterData = document.getElementById("visitorCounter");
   counterData.innerHTML = '<p>Anda pengunjung ke-</p>'+'<a href="https://www.hitwebcounter.com" target="_blank">' + '<img src="https://hitwebcounter.com/counter/counter.php?page=7817684&style=0006&nbdigits=5&type=ip&initCount=0" title="Free Counter" Alt="web counter" border="0" /></a>';
 }
 
