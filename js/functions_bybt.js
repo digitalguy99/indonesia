@@ -3,7 +3,7 @@
 let acc = document.getElementsByClassName("accordion");
 let panel;
 
-for (let i in acc) {
+for (let i=0; i<acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     panel = this.nextElementSibling;
