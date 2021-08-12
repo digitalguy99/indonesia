@@ -241,10 +241,10 @@
             if (xmlDOM.querySelectorAll("name")[i].innerHTML == this.innerHTML) {              
               $(this).parent().siblings().remove();
               this.parentNode.parentNode.style.maxHeight = "100%";
-              $(this.parentElement.parentElement).append(`<div style="display: none"><img style="float: left; margin: 0px 15px 15px 0px;" src=${xmlDOM.querySelectorAll("photo")[i].innerHTML}><p>${xmlDOM.querySelectorAll("content")[i].innerHTML}</p><p style="color: blue"><u>Kembali</u>↩</p></div>`);              
+              $(this.parentElement.parentElement).append(`<div style="display: none"><p style="font-size: large"><b>${xmlDOM.querySelectorAll("name")[i].innerHTML}</b></p><img style="float: left; margin: 0px 15px 15px 0px;" src=${xmlDOM.querySelectorAll("photo")[i].innerHTML}><p>${xmlDOM.querySelectorAll("content")[i].innerHTML}</p><p style="color: blue"><u>Kembali</u>↩</p></div>`);              
               $(this).parent().hide();
               $(this).parent().siblings().fadeIn(400);
-              $(this).parent().siblings().children("p:nth-child(3)").click(function(){
+              $(this).parent().siblings().children("p:nth-child(4)").click(function(){
                 $(this).parent().hide();
                 $(this.parentElement.previousElementSibling).fadeIn(400);
               });  
