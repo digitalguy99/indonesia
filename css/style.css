@@ -634,6 +634,29 @@ ul.articles#kelas li a:hover, div.panel dl dd a:hover{
 	/* vertical-align:middle; */
 }
 
+div.gsc-control-cse.gsc-control-cse-id{
+	padding: 0;
+	background: unset;
+	border: none;
+}
+
+a.gs-title{
+	background-color: white !important;
+	color: blue !important;
+}
+
+div.gcsc-more-maybe-branding-root a{
+	background-color: white !important;
+}
+
+a.gs-image{
+	display: none;
+}
+
+.gs-web-image-box, .gs-promotion-image-box{
+	padding: 0 !important;
+}
+
 td.gsc-input{
 	padding: 0 !important;
 }
