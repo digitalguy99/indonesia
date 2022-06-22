@@ -653,6 +653,18 @@ a.gs-image{
 	display: none;
 }
 
+/* a.gcsc-branding-clickable{
+	background-color: white !important;
+} */
+
+div.gsc-tabsArea{
+	display: none;
+}
+
+button.gsc-search-button.gsc-search-button-v2{
+	cursor: pointer;
+}
+
 .gs-web-image-box, .gs-promotion-image-box{
 	padding: 0 !important;
 }
