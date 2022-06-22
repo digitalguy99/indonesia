@@ -640,6 +640,11 @@ div.gsc-control-cse.gsc-control-cse-id{
 	border: none;
 }
 
+.gsc-results-wrapper-overlay{
+	max-height: 80% !important;
+	height: auto !important;
+}
+
 a.gs-title{
 	background-color: white !important;
 	color: blue !important;
