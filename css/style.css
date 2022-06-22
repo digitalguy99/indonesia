@@ -653,6 +653,10 @@ a.gs-image{
 	display: none;
 }
 
+#search-form a {
+	background-color: white !important;
+}
+
 /* a.gcsc-branding-clickable{
 	background-color: white !important;
 } */
