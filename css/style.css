@@ -653,7 +653,8 @@ a.gs-image{
 	display: none;
 }
 
-#search-form a {
+#search-form a[href$="cx=ea19aafb01ea4b9ed"], 
+#search-form a.gcsc-branding-clickable[href$="id"][target=_BLANK] {
 	background-color: white !important;
 }
 
