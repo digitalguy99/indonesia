@@ -654,22 +654,19 @@ div.gcsc-more-maybe-branding-root a{
 	background-color: white !important;
 }
 
-a.gs-image{
-	display: none;
+#search-form a[href$="cx=ea19aafb01ea4b9ed"], 
+#search-form a.gcsc-branding-clickable[href$="id"][target=_BLANK]{
+	background-color: white !important;
 }
 
-#search-form a[href$="cx=ea19aafb01ea4b9ed"], 
-#search-form a.gcsc-branding-clickable[href$="id"][target=_BLANK] {
-	background-color: white !important;
+div.gsc-adBlock, div.gsc-orderby, div.gsc-tabsArea,
+a.gs-image, .gsib_b{
+	display: none !important;
 }
 
 /* a.gcsc-branding-clickable{
 	background-color: white !important;
 } */
-
-div.gsc-tabsArea{
-	display: none;
-}
 
 button.gsc-search-button.gsc-search-button-v2{
 	cursor: pointer;
@@ -683,9 +680,6 @@ td.gsc-input{
 	padding: 0 !important;
 }
 
-.gsib_b{
-		display: none;
-} 
 .gsc-search-button.gsc-search-button-v2{
 	margin: 0 !important;
 }
@@ -722,7 +716,7 @@ div.pengunjungSitus p{
 
 ul.tandaButir{
 	list-style-type: initial;
-  list-style-position: inside;
+  	list-style-position: inside;
 	padding-left: 0;
 }
 
@@ -847,7 +841,7 @@ ul.dataTesti li{
 	/* margin-top: 20px; */
 	/* top: 10px; */
 	background-color: rgb(225, 225, 225);
-  border-radius: 10px;
+  	border-radius: 10px;
 	/* height: 30px; */
 	/* height: 20px; */
 	/* margin-top: 20px; */
@@ -855,7 +849,7 @@ ul.dataTesti li{
 	font-size: 20px;
 	line-height: 30px;
 	margin-bottom: 20px;
-  margin-top: 20px;
+  	margin-top: 20px;
 	padding: 5px 5px;
 	margin-left: 20px;
 	/* text-align: center; */
