@@ -874,6 +874,8 @@ img[src=""] {
 	display: none;
 }
 
+/* --- Study Abroad Program page --- */
+
 div.sap ol{
 	list-style: decimal;
 	margin-left: 20px;
@@ -885,4 +887,12 @@ div.sap img{
 	margin-right: auto;
 	width: 80%;
 	margin-top: 20px;
+}
+
+div.sap a{
+	color: #008cc4;
+}
+
+div.sap a:hover{
+	color: #ff7b01;
 }
