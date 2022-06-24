@@ -349,7 +349,7 @@ header nav ul li.current a.m1 {
 	background-image:url(../images/m1-act.jpg);
 }
 
-header nav ul li a.m1 img:hover, header nav ul li.current a.m1 img{
+header nav ul li.current a.m1 img{
 	/*changing black home icon to blue*/
 	filter: invert(41%) sepia(58%) saturate(2309%) hue-rotate(169deg) brightness(87%) contrast(101%);
 }

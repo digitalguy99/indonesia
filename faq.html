@@ -333,6 +333,16 @@
 </footer>
 <script type="text/javascript"> Cufon.now(); </script>
 <script type="text/javascript" src="js/functions_bybt.js"></script>
+<script>
+  $("header nav ul li a.m1").hover(function() {
+    $("header nav ul li a.m1 img").css(
+      "filter", "invert(41%) sepia(58%) saturate(2309%) hue-rotate(169deg) brightness(87%) contrast(101%)"
+    )}, function() {
+    $("header nav ul li a.m1 img").css(
+      "filter", "unset"
+    )}
+  );
+</script>
 <!-- END PAGE SOURCE -->
 </body>
 </html>
