@@ -661,7 +661,8 @@ div.gcsc-more-maybe-branding-root a{
 
 div.gsc-adBlock, div.gsc-orderby, div.gsc-tabsArea,
 a.gs-image, .gsib_b,
-div.gcsc-more-maybe-branding-root a[href$="cx=ea19aafb01ea4b9ed"]{
+div.gcsc-more-maybe-branding-root a[href$="cx=ea19aafb01ea4b9ed"],
+div.gcsc-more-maybe-branding-box{
 	display: none !important;
 }
 
