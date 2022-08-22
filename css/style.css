@@ -445,7 +445,7 @@ header nav ul li.current a.m7 {
 }
 #newsletter-form fieldset {
 	background:url(../images/newsletter-bg.gif) ;
-	width:219px;
+	min-width:100% !important;
 	height:315px;
 	overflow:hidden;
 }
@@ -585,6 +585,21 @@ object-fit: cover;
 .twitter-timeline{
 	height: 100% !important;
 }
+
+#twitter-widget-0{
+	max-height: 100% !important;
+	border-radius: 20px;
+}
+
+/* -- feature in progress --
+.twitter-timeline::-webkit-scrollbar-button {
+	height: 50%; 
+}
+
+section.css-1dbjc4n.r-150rngu{
+	height: 170px;
+}
+*/
 
 /* 
 footer.timeline-Footer.u-cf{
